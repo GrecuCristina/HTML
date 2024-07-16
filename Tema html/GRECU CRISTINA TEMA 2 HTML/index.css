@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  border-top: 10px solid #005889;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Roboto";
+
+  --main-font-color: #005889;
+}
+
+/*----------------- animations--------- */
+.personal-info {
+  opacity: 0;
+  animation: showDiv 1s forwards 0.5s;
+}
+
+@keyframes showDiv {
+  to {
+    opacity: 1;
+  }
+}
+.objective {
+  opacity: 0;
+  animation: showDiv 1s forwards 1.5s;
+}
+.experience {
+  opacity: 0;
+  animation: showDiv 1s forwards 2s;
+}
+.education {
+  opacity: 0;
+  animation: showDiv 1s forwards 2.5s;
+}
+.skills {
+  opacity: 0;
+  animation: showDiv 1s forwards 3s;
+}
+.leadership,
+.achievements {
+  opacity: 0;
+  animation: showDiv 1s forwards 3.5s;
+}
+.lastname {
+  text-transform: uppercase;
+}
+.personal-info h1 {
+  text-shadow: rgb(13, 9, 10) 1px 1px 4px;
+}
+a {
+  color: var(--main-font-color);
+}
+.phone-number,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.portofolio,
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.content {
+  max-width: 800px;
+}
+
+h1,
+h2 {
+  color: var(--main-font-color);
+}
+.blue {
+  color: var(--main-font-color);
+}
+.blue-dot {
+  color: var(--main-font-color);
+  font-size: 25px;
+}
+.bullet::marker {
+  color: var(--main-font-color);
+}
+
+ul p {
+  margin-left: 0;
+}
+p {
+  margin: 8px;
+}
+.ul {
+  display: flex;
+  gap: 12px;
+}
+.ul-skills {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.education li,
+.experience li {
+  padding-top: 10px;
+}

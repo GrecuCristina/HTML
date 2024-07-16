@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  border-top: 10px solid #005889;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  max-width: 800px;
+}
+
+.blue {
+  color: #005889;
+}
+
+.bullet::marker {
+  color: #005889;
+}
+
+ul p {
+  margin-left: 0;
+}
+p {
+  margin: 8px;
+}
+.ul {
+  display: flex;
+  gap: 12px;
+}
+.ul-skills {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 60px; */
+}
+.education li,
+.experience li {
+  padding-top: 10px;
+}
